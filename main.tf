@@ -1,6 +1,6 @@
 // gcloud iam service-accounts keys create credentials.json --iam-account 613541413891-compute@developer.gserviceaccount.com 
 provider "google" {
- credentials = file("credentials.json")
+ //credentials = file("credentials.json")
  project     = "tim-bigdata-lab"
  region      = "us-east1"
 }
