@@ -13,7 +13,7 @@ resource "random_id" "instance_id" {
 }
 
 resource "google_storage_bucket" "static-site" {
-  name          = "github-terraform"
+  name          = "githubterraform"
   location      = "us-east1"
   force_destroy = true
 
